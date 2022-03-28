@@ -7,11 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F36AEC827F157F900D8CF15 /* RPStorageRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F36AEC727F157F900D8CF15 /* RPStorageRepositoryProtocol.swift */; };
+		2F36AECA27F1581A00D8CF15 /* UserRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F36AEC927F1581A00D8CF15 /* UserRepositoryProtocol.swift */; };
+		2F36AECE27F1585900D8CF15 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F36AECD27F1585900D8CF15 /* Interactor.swift */; };
+		2F36AED027F1586A00D8CF15 /* AppSettingsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F36AECF27F1586A00D8CF15 /* AppSettingsInteractor.swift */; };
+		2F36AED227F158D100D8CF15 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F36AED127F158D100D8CF15 /* User.swift */; };
+		2F36AED427F1591D00D8CF15 /* ErrorReponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F36AED327F1591D00D8CF15 /* ErrorReponse.swift */; };
+		2F36AED627F1592C00D8CF15 /* ResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F36AED527F1592C00D8CF15 /* ResponseType.swift */; };
 		2FA6BDDB27EEAE9C007F766E /* Domain.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2FA6BDDA27EEAE9C007F766E /* Domain.docc */; };
 		2FA6BDDC27EEAE9C007F766E /* Domain.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA6BDD927EEAE9C007F766E /* Domain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F36AEC727F157F900D8CF15 /* RPStorageRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPStorageRepositoryProtocol.swift; sourceTree = "<group>"; };
+		2F36AEC927F1581A00D8CF15 /* UserRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepositoryProtocol.swift; sourceTree = "<group>"; };
+		2F36AECD27F1585900D8CF15 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		2F36AECF27F1586A00D8CF15 /* AppSettingsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsInteractor.swift; sourceTree = "<group>"; };
+		2F36AED127F158D100D8CF15 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2F36AED327F1591D00D8CF15 /* ErrorReponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorReponse.swift; sourceTree = "<group>"; };
+		2F36AED527F1592C00D8CF15 /* ResponseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseType.swift; sourceTree = "<group>"; };
 		2FA6BDD627EEAE9C007F766E /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA6BDD927EEAE9C007F766E /* Domain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Domain.h; sourceTree = "<group>"; };
 		2FA6BDDA27EEAE9C007F766E /* Domain.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Domain.docc; sourceTree = "<group>"; };
@@ -28,6 +42,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F36AEC427F157CD00D8CF15 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				2F36AEC727F157F900D8CF15 /* RPStorageRepositoryProtocol.swift */,
+				2F36AEC927F1581A00D8CF15 /* UserRepositoryProtocol.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		2F36AEC527F157D400D8CF15 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				2F36AECC27F1585000D8CF15 /* Support */,
+				2F36AECB27F1584B00D8CF15 /* Services */,
+				2F36AECD27F1585900D8CF15 /* Interactor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		2F36AEC627F157D800D8CF15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F36AED127F158D100D8CF15 /* User.swift */,
+				2F36AED327F1591D00D8CF15 /* ErrorReponse.swift */,
+				2F36AED527F1592C00D8CF15 /* ResponseType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F36AECB27F1584B00D8CF15 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2F36AECC27F1585000D8CF15 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				2F36AECF27F1586A00D8CF15 /* AppSettingsInteractor.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		2FA6BDCC27EEAE9C007F766E = {
 			isa = PBXGroup;
 			children = (
@@ -47,6 +105,9 @@
 		2FA6BDD827EEAE9C007F766E /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				2F36AEC627F157D800D8CF15 /* Model */,
+				2F36AEC527F157D400D8CF15 /* Interactor */,
+				2F36AEC427F157CD00D8CF15 /* Repository */,
 				2FA6BDD927EEAE9C007F766E /* Domain.h */,
 				2FA6BDDA27EEAE9C007F766E /* Domain.docc */,
 			);
@@ -132,7 +193,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F36AED427F1591D00D8CF15 /* ErrorReponse.swift in Sources */,
 				2FA6BDDB27EEAE9C007F766E /* Domain.docc in Sources */,
+				2F36AEC827F157F900D8CF15 /* RPStorageRepositoryProtocol.swift in Sources */,
+				2F36AED227F158D100D8CF15 /* User.swift in Sources */,
+				2F36AED027F1586A00D8CF15 /* AppSettingsInteractor.swift in Sources */,
+				2F36AECE27F1585900D8CF15 /* Interactor.swift in Sources */,
+				2F36AED627F1592C00D8CF15 /* ResponseType.swift in Sources */,
+				2F36AECA27F1581A00D8CF15 /* UserRepositoryProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
