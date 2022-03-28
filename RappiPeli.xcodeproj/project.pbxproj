@@ -7,8 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F75E56727F1340C007A2755 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 2F75E56627F1340C007A2755 /* SDWebImage */; };
-		2F75E56927F1340C007A2755 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2F75E56827F1340C007A2755 /* SDWebImageMapKit */; };
+		2F24773527F14C7900A828F3 /* Info-DEV.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F75E59327F1350E007A2755 /* Info-DEV.plist */; };
+		2F24773627F14C7B00A828F3 /* Info-UAT.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F75E57F27F13508007A2755 /* Info-UAT.plist */; };
+		2F75E57127F13508007A2755 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA6BDA027EEAE73007F766E /* ViewController.swift */; };
+		2F75E57227F13508007A2755 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA6BD9C27EEAE73007F766E /* AppDelegate.swift */; };
+		2F75E57327F13508007A2755 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA6BD9E27EEAE73007F766E /* SceneDelegate.swift */; };
+		2F75E57527F13508007A2755 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2F75E56F27F13508007A2755 /* SDWebImageMapKit */; };
+		2F75E57627F13508007A2755 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 2F75E56D27F13508007A2755 /* SDWebImage */; };
+		2F75E57827F13508007A2755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA6BDA727EEAE74007F766E /* LaunchScreen.storyboard */; };
+		2F75E57927F13508007A2755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA6BDA527EEAE74007F766E /* Assets.xcassets */; };
+		2F75E57A27F13508007A2755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA6BDA227EEAE73007F766E /* Main.storyboard */; };
+		2F75E58527F1350E007A2755 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA6BDA027EEAE73007F766E /* ViewController.swift */; };
+		2F75E58627F1350E007A2755 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA6BD9C27EEAE73007F766E /* AppDelegate.swift */; };
+		2F75E58727F1350E007A2755 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA6BD9E27EEAE73007F766E /* SceneDelegate.swift */; };
+		2F75E58927F1350E007A2755 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2F75E58327F1350E007A2755 /* SDWebImageMapKit */; };
+		2F75E58A27F1350E007A2755 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 2F75E58127F1350E007A2755 /* SDWebImage */; };
+		2F75E58C27F1350E007A2755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA6BDA727EEAE74007F766E /* LaunchScreen.storyboard */; };
+		2F75E58D27F1350E007A2755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA6BDA527EEAE74007F766E /* Assets.xcassets */; };
+		2F75E58E27F1350E007A2755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA6BDA227EEAE73007F766E /* Main.storyboard */; };
+		2F75E59627F13749007A2755 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2F75E59527F13749007A2755 /* IQKeyboardManagerSwift */; };
+		2F75E59927F13755007A2755 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2F75E59827F13755007A2755 /* IQKeyboardManagerSwift */; };
+		2F75E59B27F1375A007A2755 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2F75E59A27F1375A007A2755 /* IQKeyboardManagerSwift */; };
+		2F75E59E27F13BF4007A2755 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 2F75E59D27F13BF4007A2755 /* SDWebImage */; };
+		2F75E5A027F13BF4007A2755 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2F75E59F27F13BF4007A2755 /* SDWebImageMapKit */; };
 		2FA6BD9D27EEAE73007F766E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA6BD9C27EEAE73007F766E /* AppDelegate.swift */; };
 		2FA6BD9F27EEAE73007F766E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA6BD9E27EEAE73007F766E /* SceneDelegate.swift */; };
 		2FA6BDA127EEAE73007F766E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA6BDA027EEAE73007F766E /* ViewController.swift */; };
@@ -38,6 +59,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F75E57E27F13508007A2755 /* RappiPeli UAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RappiPeli UAT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F75E57F27F13508007A2755 /* Info-UAT.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-UAT.plist"; path = "/Users/marcelostefanovelasquezherrera/Documents/Proyectos Xcode/RappiPay/RappiPeli/RappiPeli/Info/Info-UAT.plist"; sourceTree = "<absolute>"; };
+		2F75E59227F1350E007A2755 /* RappiPeli DEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RappiPeli DEV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F75E59327F1350E007A2755 /* Info-DEV.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-DEV.plist"; path = "/Users/marcelostefanovelasquezherrera/Documents/Proyectos Xcode/RappiPay/RappiPeli/RappiPeli/Info/Info-DEV.plist"; sourceTree = "<absolute>"; };
 		2FA6BD9927EEAE73007F766E /* RappiPeli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RappiPeli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA6BD9C27EEAE73007F766E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FA6BD9E27EEAE73007F766E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,12 +79,33 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2F75E57427F13508007A2755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F75E57527F13508007A2755 /* SDWebImageMapKit in Frameworks */,
+				2F75E57627F13508007A2755 /* SDWebImage in Frameworks */,
+				2F75E59927F13755007A2755 /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F75E58827F1350E007A2755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F75E58927F1350E007A2755 /* SDWebImageMapKit in Frameworks */,
+				2F75E58A27F1350E007A2755 /* SDWebImage in Frameworks */,
+				2F75E59B27F1375A007A2755 /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2FA6BD9627EEAE73007F766E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F75E56927F1340C007A2755 /* SDWebImageMapKit in Frameworks */,
-				2F75E56727F1340C007A2755 /* SDWebImage in Frameworks */,
+				2F75E59E27F13BF4007A2755 /* SDWebImage in Frameworks */,
+				2F75E5A027F13BF4007A2755 /* SDWebImageMapKit in Frameworks */,
+				2F75E59627F13749007A2755 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +126,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F36AE7727F14D6F00D8CF15 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				2F75E57F27F13508007A2755 /* Info-UAT.plist */,
+				2F75E59327F1350E007A2755 /* Info-DEV.plist */,
+				2FA6BDAA27EEAE74007F766E /* Info.plist */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		2F75E59727F13755007A2755 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2FA6BD9027EEAE73007F766E = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +150,7 @@
 				2FA6BDB227EEAE74007F766E /* RappiPeliTests */,
 				2FA6BDBC27EEAE74007F766E /* RappiPeliUITests */,
 				2FA6BD9A27EEAE73007F766E /* Products */,
+				2F75E59727F13755007A2755 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +160,8 @@
 				2FA6BD9927EEAE73007F766E /* RappiPeli.app */,
 				2FA6BDAF27EEAE74007F766E /* RappiPeliTests.xctest */,
 				2FA6BDB927EEAE74007F766E /* RappiPeliUITests.xctest */,
+				2F75E57E27F13508007A2755 /* RappiPeli UAT.app */,
+				2F75E59227F1350E007A2755 /* RappiPeli DEV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,13 +169,13 @@
 		2FA6BD9B27EEAE73007F766E /* RappiPeli */ = {
 			isa = PBXGroup;
 			children = (
+				2F36AE7727F14D6F00D8CF15 /* Info */,
 				2FA6BD9C27EEAE73007F766E /* AppDelegate.swift */,
 				2FA6BD9E27EEAE73007F766E /* SceneDelegate.swift */,
 				2FA6BDA027EEAE73007F766E /* ViewController.swift */,
 				2FA6BDA227EEAE73007F766E /* Main.storyboard */,
 				2FA6BDA527EEAE74007F766E /* Assets.xcassets */,
 				2FA6BDA727EEAE74007F766E /* LaunchScreen.storyboard */,
-				2FA6BDAA27EEAE74007F766E /* Info.plist */,
 			);
 			path = RappiPeli;
 			sourceTree = "<group>";
@@ -134,6 +200,50 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2F75E56C27F13508007A2755 /* RappiPeli UAT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F75E57B27F13508007A2755 /* Build configuration list for PBXNativeTarget "RappiPeli UAT" */;
+			buildPhases = (
+				2F75E57027F13508007A2755 /* Sources */,
+				2F75E57427F13508007A2755 /* Frameworks */,
+				2F75E57727F13508007A2755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RappiPeli UAT";
+			packageProductDependencies = (
+				2F75E56D27F13508007A2755 /* SDWebImage */,
+				2F75E56F27F13508007A2755 /* SDWebImageMapKit */,
+				2F75E59827F13755007A2755 /* IQKeyboardManagerSwift */,
+			);
+			productName = RappiPeli;
+			productReference = 2F75E57E27F13508007A2755 /* RappiPeli UAT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F75E58027F1350E007A2755 /* RappiPeli DEV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F75E58F27F1350E007A2755 /* Build configuration list for PBXNativeTarget "RappiPeli DEV" */;
+			buildPhases = (
+				2F75E58427F1350E007A2755 /* Sources */,
+				2F75E58827F1350E007A2755 /* Frameworks */,
+				2F75E58B27F1350E007A2755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RappiPeli DEV";
+			packageProductDependencies = (
+				2F75E58127F1350E007A2755 /* SDWebImage */,
+				2F75E58327F1350E007A2755 /* SDWebImageMapKit */,
+				2F75E59A27F1375A007A2755 /* IQKeyboardManagerSwift */,
+			);
+			productName = RappiPeli;
+			productReference = 2F75E59227F1350E007A2755 /* RappiPeli DEV.app */;
+			productType = "com.apple.product-type.application";
+		};
 		2FA6BD9827EEAE73007F766E /* RappiPeli */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FA6BDC327EEAE74007F766E /* Build configuration list for PBXNativeTarget "RappiPeli" */;
@@ -148,8 +258,9 @@
 			);
 			name = RappiPeli;
 			packageProductDependencies = (
-				2F75E56627F1340C007A2755 /* SDWebImage */,
-				2F75E56827F1340C007A2755 /* SDWebImageMapKit */,
+				2F75E59527F13749007A2755 /* IQKeyboardManagerSwift */,
+				2F75E59D27F13BF4007A2755 /* SDWebImage */,
+				2F75E59F27F13BF4007A2755 /* SDWebImageMapKit */,
 			);
 			productName = RappiPeli;
 			productReference = 2FA6BD9927EEAE73007F766E /* RappiPeli.app */;
@@ -224,14 +335,16 @@
 			);
 			mainGroup = 2FA6BD9027EEAE73007F766E;
 			packageReferences = (
-				2F75E56527F1340C007A2755 /* XCRemoteSwiftPackageReference "SDWebImage" */,
-				2F75E56A27F13420007A2755 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				2F75E59427F13749007A2755 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				2F75E59C27F13BF4007A2755 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			productRefGroup = 2FA6BD9A27EEAE73007F766E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				2FA6BD9827EEAE73007F766E /* RappiPeli */,
+				2F75E56C27F13508007A2755 /* RappiPeli UAT */,
+				2F75E58027F1350E007A2755 /* RappiPeli DEV */,
 				2FA6BDAE27EEAE74007F766E /* RappiPeliTests */,
 				2FA6BDB827EEAE74007F766E /* RappiPeliUITests */,
 			);
@@ -239,6 +352,28 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2F75E57727F13508007A2755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F75E57827F13508007A2755 /* LaunchScreen.storyboard in Resources */,
+				2F75E57927F13508007A2755 /* Assets.xcassets in Resources */,
+				2F75E57A27F13508007A2755 /* Main.storyboard in Resources */,
+				2F24773627F14C7B00A828F3 /* Info-UAT.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F75E58B27F1350E007A2755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F24773527F14C7900A828F3 /* Info-DEV.plist in Resources */,
+				2F75E58C27F1350E007A2755 /* LaunchScreen.storyboard in Resources */,
+				2F75E58D27F1350E007A2755 /* Assets.xcassets in Resources */,
+				2F75E58E27F1350E007A2755 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2FA6BD9727EEAE73007F766E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -266,6 +401,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2F75E57027F13508007A2755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F75E57127F13508007A2755 /* ViewController.swift in Sources */,
+				2F75E57227F13508007A2755 /* AppDelegate.swift in Sources */,
+				2F75E57327F13508007A2755 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F75E58427F1350E007A2755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F75E58527F1350E007A2755 /* ViewController.swift in Sources */,
+				2F75E58627F1350E007A2755 /* AppDelegate.swift in Sources */,
+				2F75E58727F1350E007A2755 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2FA6BD9527EEAE73007F766E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -328,6 +483,118 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2F75E57C27F13508007A2755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-UAT";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22P58SR4VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RappiPeli/Info/Info-UAT.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mvelasquezherrera.RappiPeli.uat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F75E57D27F13508007A2755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-UAT";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22P58SR4VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RappiPeli/Info/Info-UAT.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mvelasquezherrera.RappiPeli.uat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F75E59027F1350E007A2755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-DEV";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22P58SR4VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RappiPeli/Info/Info-DEV.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mvelasquezherrera.RappiPeli.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F75E59127F1350E007A2755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-DEV";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22P58SR4VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RappiPeli/Info/Info-DEV.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mvelasquezherrera.RappiPeli.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		2FA6BDC127EEAE74007F766E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -451,7 +718,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 22P58SR4VW;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RappiPeli/Info.plist;
+				INFOPLIST_FILE = RappiPeli/Info/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -479,7 +746,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 22P58SR4VW;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RappiPeli/Info.plist;
+				INFOPLIST_FILE = RappiPeli/Info/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -577,6 +844,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2F75E57B27F13508007A2755 /* Build configuration list for PBXNativeTarget "RappiPeli UAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F75E57C27F13508007A2755 /* Debug */,
+				2F75E57D27F13508007A2755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F75E58F27F1350E007A2755 /* Build configuration list for PBXNativeTarget "RappiPeli DEV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F75E59027F1350E007A2755 /* Debug */,
+				2F75E59127F1350E007A2755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2FA6BD9427EEAE73007F766E /* Build configuration list for PBXProject "RappiPeli" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -616,7 +901,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		2F75E56527F1340C007A2755 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+		2F75E56E27F13508007A2755 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
 			requirement = {
@@ -624,25 +909,76 @@
 				minimumVersion = 5.0.0;
 			};
 		};
-		2F75E56A27F13420007A2755 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+		2F75E58227F1350E007A2755 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		2F75E59427F13749007A2755 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
+				branch = master;
+				kind = branch;
+			};
+		};
+		2F75E59C27F13BF4007A2755 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2F75E56627F1340C007A2755 /* SDWebImage */ = {
+		2F75E56D27F13508007A2755 /* SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2F75E56527F1340C007A2755 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			package = 2F75E56E27F13508007A2755 /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImage;
 		};
-		2F75E56827F1340C007A2755 /* SDWebImageMapKit */ = {
+		2F75E56F27F13508007A2755 /* SDWebImageMapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2F75E56527F1340C007A2755 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			package = 2F75E56E27F13508007A2755 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+		2F75E58127F1350E007A2755 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F75E58227F1350E007A2755 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		2F75E58327F1350E007A2755 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F75E58227F1350E007A2755 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+		2F75E59527F13749007A2755 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F75E59427F13749007A2755 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		2F75E59827F13755007A2755 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F75E59427F13749007A2755 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		2F75E59A27F1375A007A2755 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F75E59427F13749007A2755 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		2F75E59D27F13BF4007A2755 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F75E59C27F13BF4007A2755 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		2F75E59F27F13BF4007A2755 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F75E59C27F13BF4007A2755 /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImageMapKit;
 		};
 /* End XCSwiftPackageProductDependency section */

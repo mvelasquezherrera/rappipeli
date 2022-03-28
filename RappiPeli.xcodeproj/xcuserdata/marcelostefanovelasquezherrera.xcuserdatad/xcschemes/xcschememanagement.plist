@@ -4,10 +4,48 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>RappiPeli DEV.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>RappiPeli copy.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>RappiPeli.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2F75E56C27F13508007A2755</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2F75E58027F1350E007A2755</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2FA6BD9827EEAE73007F766E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2FA6BDAE27EEAE74007F766E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2FA6BDB827EEAE74007F766E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
